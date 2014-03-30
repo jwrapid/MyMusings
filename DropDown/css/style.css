@@ -1,0 +1,48 @@
+/* CSS Stylesheet for the main menu */
+
+.navbar-inner {
+	max-width: 180px;
+}
+
+/* Green Engraved Text */
+
+.navbar-heading {
+	color: green;
+	text-decoration: none;
+	text-shadow: 1px 1px #FFF,-1px -1px #33CC33;
+	font-size: x-large;
+	margin-left: 10px;
+	color:#999;
+}
+
+.navbar-inner {
+    background-color: transparent;
+}
+
+/* Emboss background */
+
+.navbar-inner ul {
+	list-style-type: none;
+	display:none;
+	-webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow:    0px 0px 5px 2px rgba(0, 0, 0, 0.35);
+    box-shadow:         0px 0px 5px 2px rgba(0, 0, 0, 0.35);
+}
+
+
+.nav-links li a{
+	margin-left: -30px;
+	text-decoration: none;
+	color: green;
+}
+
+.nav-links li a:hover{
+	text-decoration: none;
+	background-color: yellow;
+	font-weight: bold;
+	color: green;
+}
+
+#info {
+	color: blue;
+}
